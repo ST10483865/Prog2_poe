@@ -118,6 +118,6 @@ namespace Prog2_poe
                     display.display_warning($"An unexpected error occurred: {ex.Message}");
                 }
             }//end of while loop
-        }
+        }//end of chat loop method
     }//end of class
 }//end of namespace

@@ -20,7 +20,7 @@ namespace Prog2_poe
             IsRunning = true;
             start_chat_loop(UserName);
         }
-        //ethod to ask for user_name
+        //method to ask for user_name
         public string get_user_name()
         {
             display.type_text("\n  Bot: Hello! Welcome to the Cybersecurity Awareness Bot.", ConsoleColor.Cyan);

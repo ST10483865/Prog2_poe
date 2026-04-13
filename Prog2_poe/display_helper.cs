@@ -127,7 +127,7 @@ namespace Prog2_poe
             type_text("  Stay vigilant. Stay secure.", ConsoleColor.Green);
             print_divider('=', DividerLength, ConsoleColor.Cyan);
             Console.WriteLine();
-        }
+        }//end of display_goodbye method
 
     }//end of class
 

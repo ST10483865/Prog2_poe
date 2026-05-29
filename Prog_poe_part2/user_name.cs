@@ -8,7 +8,7 @@ using System.Windows.Media;
 namespace Prog_poe_part2
 {//start of namespace
     internal class user_name
-    {//start of class
+    {//start of class 
 
         //method to store and submit username
         public string submit_name(TextBox user_input, ListView chats)

@@ -1,11 +1,8 @@
-﻿using System;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Prog2_poe
-{
+namespace Prog_poe_part2
+{//start of name space
     public class chatbot_responses
     {//start of class
         public string BotName { get; private set; }

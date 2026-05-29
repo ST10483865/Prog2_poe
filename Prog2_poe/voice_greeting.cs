@@ -1,23 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
-using System.IO;
+using System.Linq;
 using System.Media;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Prog2_poe
-{//start of namespace
-    public class voice_greeting
+{
+    internal class voice_greeting
     {//start of class
-
         //Auto get the path directory
         private string full_path = AppDomain.CurrentDomain.BaseDirectory;
-        public voice_greeting() 
+        public voice_greeting()
         { //start of constructor
             PlayWelcomeMessage();
             logo_to_ascii();
         }//end of constructor
-        
+
         //method to play the sound
-        public void PlayWelcomeMessage() 
+        public void PlayWelcomeMessage()
         { //start of the method
             Console.WriteLine(full_path);// check if the path way is auto collected
             string correct_path = full_path.Replace(@"bin\Debug\", @"\sound.wav");
@@ -36,7 +38,7 @@ namespace Prog2_poe
 
             // Resize for better console fit
             int width = 150;
-            int height = 70; 
+            int height = 70;
             Bitmap resized = new Bitmap(image, new Size(width, height));
 
             string asciiChars = "@#S%?*+;:,. ";
@@ -60,10 +62,7 @@ namespace Prog2_poe
                 Console.WriteLine();
             }
         }
-    
 
     }//end of class
 
-
 }//end of namespace
-

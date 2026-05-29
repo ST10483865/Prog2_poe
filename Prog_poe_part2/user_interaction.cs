@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Prog2_poe
-{
+namespace Prog_poe_part2
+{//start of namespacee
     public class user_interaction
     {//start of class
         // automatic properties
@@ -16,7 +12,7 @@ namespace Prog2_poe
         private display_helper display = new display_helper();
         private chatbot_responses responses = new chatbot_responses();
 
-        public user_interaction()
+        public user_interaction() 
         {
             display.display_welcome_banner();
             UserName = get_user_name();
@@ -124,4 +120,4 @@ namespace Prog2_poe
             }//end of while loop
         }//end of chat loop method
     }//end of class
-}
+}//end of namespace

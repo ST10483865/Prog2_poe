@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
-namespace Prog2_poe
+namespace Prog_poe_part2
 {
-    internal class display_helper
-    {//start of class
+    public class display_helper
+    {// start of class
         //Automatc properties to display settings
         public int DividerLength { get; set; }
         public char DefaultSymbol { get; set; }
@@ -122,7 +118,7 @@ namespace Prog2_poe
         }//end of display_warning_method
 
         //method to display goodbye message
-        public void display_goodbye(string user_name)
+        public void display_goodbye(string user_name) 
         {
             Console.WriteLine();
             print_divider('=', DividerLength, ConsoleColor.Cyan);
@@ -134,5 +130,6 @@ namespace Prog2_poe
         }//end of display_goodbye method
 
     }//end of class
+    
 
 }//end of namespace

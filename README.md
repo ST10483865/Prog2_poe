@@ -55,3 +55,41 @@ user_name.cs  -Memory recall and returning user detection
 display_helper.cs - Console formatting helpers 
 chatbot_responses.cs -Response dictionary
 
+## Part 3 — Enhanced WPF Application (Prog_poe_part2)
+
+### New Features Added
+- **Task Assistant** — Add, view, complete and delete cybersecurity tasks stored in SQL Server LocalDB
+- **Cybersecurity Quiz** — 15 questions with multiple choice and true/false, score tracking and explanations
+- **NLP Simulation** — Intent detection and keyword recognition for 10 cybersecurity topics
+- **Activity Log** — Tracks all user actions with timestamps, shows last 10 activities
+
+### Database
+- Uses SQL Server LocalDB built into Visual Studio
+- No external database setup required
+- Database and table created automatically when app starts
+
+### How to Run
+1. Open `Prog_poe_part2` project in Visual Studio
+2. Set as startup project
+3. Press F5 to run
+4. Database is created automatically
+
+### Project Structure
+| File | Description |
+|---|---|
+| `MainWindow.xaml` | WPF layout with all panels |
+| `MainWindow.xaml.cs` | Main logic for all features |
+| `chatbot_responses.cs` | Cybersecurity response dictionary |
+| `respond.cs` | ArrayList responses and ignored words |
+| `database_helper.cs` | SQL Server CRUD operations for tasks |
+| `quiz_manager.cs` | 15-question cybersecurity quiz |
+| `activity_log.cs` | Activity tracking with timestamps |
+| `nlp_manager.cs` | Intent detection and keyword matching |
+| `user_name.cs` | Username memory recall |
+| `voice_greeting.cs` | Voice greeting and ASCII art |
+| `display_helper.cs` | Display formatting helper |
+
+
+
+
+

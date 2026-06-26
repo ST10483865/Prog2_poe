@@ -17,6 +17,7 @@ namespace Prog_poe_part2
         //start of constructor
         public nlp_manager()
         {
+            //intialize the intent keywords and responses
             load_intents();
         }
         //end of constructor

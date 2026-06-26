@@ -28,3 +28,30 @@ Project structure
 .display_helper.cs
 .chatbot_responses.cs
 
+# PART2
+AWARENESS CHAT BOT GUI
+
+Description
+An expanded version of the chatbot with a Graphical User Interface built using WPF. The responses are more dynamic with keyword recognition, random responses, conversation flow, memory and recall, and sentiment detection.
+Features
+
+# GUI interface with three pages — home, username entry, and chat
+Voice greeting and ASCII art displayed in the GUI
+Keyword recognition for cybersecurity topics
+Random responses for phishing and browsing topics
+Conversation flow — type "tell me more" for follow up information
+Memory and recall — stores user interests and recalls them every 3 messages
+Sentiment detection — detects worried, curious, frustrated, overwhelmed, happy and sad
+Input validation and error handling
+Topic buttons for quick access to cybersecurity topics
+Pink chat bubbles for user messages and blue for bot messages
+
+# Project Structure
+FilMainWindow.xaml -GUI design and layout
+MainWindow.xaml.cs - GUI logic and event handlers 
+voice_greeting.cs -Voice greeting and ASCII art 
+respond.cs  -Loads all responses and ignored words 
+user_name.cs  -Memory recall and returning user detection
+display_helper.cs - Console formatting helpers 
+chatbot_responses.cs -Response dictionary
+

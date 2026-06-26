@@ -13,6 +13,7 @@ namespace Prog_poe_part2
 
         public chatbot_responses()
         { //start of constructor
+            //intialize bot with name and load all responses 
             BotName = "CyberBot";
             ResponseCount = 0;
             response_dictionary = new Dictionary<string, string>();

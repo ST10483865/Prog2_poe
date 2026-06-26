@@ -24,6 +24,7 @@ namespace Prog_poe_part2
 
         public quiz_manager()
         {//start of constructor
+            //initialize quiz with 15 cybersecurity questions
             score = 0;
             current_index = 0;
             load_questions();

@@ -49,7 +49,7 @@ namespace Prog_poe_part2
                 "  * Avoid public Wi-Fi for sensitive activities like online banking.\n" +
                 "  * Clear your browser cookies and cache regularly for better privacy.");
 
-            response_dictionary.Add("Two - factor authentication",
+            response_dictionary.Add("Two-factor authentication (2FA)",
                 "TWO-FACTOR AUTHENTICATION:\n" +
                 "  * 2FA adds an extra layer of security beyond just a password.\n" +
                 "  * Even if your password is stolen, attackers cannot access your account\n" +
@@ -68,7 +68,7 @@ namespace Prog_poe_part2
                 "  * Regularly back up your important data - this is your best defence against ransomware.\n" +
                 "  * Avoid pirated software as it often contains hidden malware.");
 
-            response_dictionary.Add("social_engineering",
+            response_dictionary.Add("social engineering",
                 "SOCIAL ENGINEERING AWARENESS:\n" +
                 "  * Social engineering manipulates people into revealing confidential information.\n" +
                 "  * Be suspicious of unsolicited calls, emails or messages asking for personal info.\n" +
@@ -174,7 +174,7 @@ namespace Prog_poe_part2
             if (input.Contains("two factor") || input.Contains("two-factor") ||
                 input.Contains("authentication") || input.Contains("mfa") ||
                 input.Contains("verification"))
-                return response_dictionary["2fa"];
+                return response_dictionary[" Two-factor authentication (2FA)"];
 
             if (input.Contains("virus") || input.Contains("ransomware") ||
                 input.Contains("spyware") || input.Contains("trojan") ||

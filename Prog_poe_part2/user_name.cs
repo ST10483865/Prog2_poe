@@ -7,7 +7,7 @@ using System.Windows.Media;
 
 namespace Prog_poe_part2
 {//start of namespace
-    internal class user_name
+    public class user_name
     {//start of class 
 
         //method to store and submit username

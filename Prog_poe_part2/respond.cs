@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Prog_poe_part2
 {
-    internal class respond
+    public class respond
     {
         public respond(ArrayList reply, ArrayList ignore)
         {//start of constructor

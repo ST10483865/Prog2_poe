@@ -15,6 +15,7 @@ namespace Prog_poe_part2
     public class activity_log
     {
         //start of fields
+        //initialize activity log with max 50 entries
         private List<log_entry> entries;
         private int max_entries;
 

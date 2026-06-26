@@ -33,6 +33,7 @@ namespace Prog_poe_part2
         chatbot_responses responses = new chatbot_responses();
 
         //part 3 instances
+
         database_helper db = new database_helper();
         quiz_manager quiz = new quiz_manager();
         activity_log log = new activity_log();
